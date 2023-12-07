@@ -8,51 +8,53 @@
 <body style="background-color: #d4d4d4; font-family: Arial; color: #161616f8;">
     <h1>Резюме</h1>
     <form>
-        <div style="padding: 10px;">
-            <label for="Name">Ваше ім'я:</label><br>
-            <input type="text" id="fname">
-        </div>
-        <div  style="padding: 10px;">
-            <label for="Surname">Ваше прізвище:</label><br>
-            <input type="text" id="lname">
-        </div>
-        <div style="padding: 10px;">
-            <label for="number">Ваш номер:</label><br>
-            <input type="tel" id="number">
-        </div>
-        <div style="padding: 10px;">
-            <label for="mail">Ваша пошта:</label><br>
-            <input type="email" id="mail">
-        </div>
-        <div style="padding: 10px;">
-            <label for="city">Місце проживання:</label><br>
-            <input type="text" id="city">
-        </div>
-        <div style="padding: 10px;">
-            <label for="place">Місце навчання:</label><br>
-            <select id="study" name="university">
-                <option value="KNU">KNU</option>
-                <option value="KNUBA">KNUBA</option>
-                <option value="KPI">KPI</option>
-            </select>
-        </div>
-        <div style="padding: 10px;">
-            <label for="profession">Професія:</label><br>
-            <select id="profession" name="profession">
-                <option value="Prog">Програмування</option>
-                <option value="teacher">Вчитель математики</option>
-                <option value="arch">Архітектор</option>
-            </select>
-        </div>
-        <div style="padding: 10px;">
-            <label for="">Про себе:</label><br>
-            <textarea name="aboutme" rows="10" cols="20"></textarea>
-        </div>
-        <div style="padding: 10px;">
-            <label for="">Чи згідні ви на обробку персональної інформації?</label>
-            <input type="checkbox">
-        </div>
-        <button type="button">Відправити</button>
+        <fieldset>
+            <div style="padding: 10px;">
+                <label for="Name">Ваше ім'я:</label><br>
+                <input type="text" id="fname">
+            </div>
+            <div  style="padding: 10px;">
+                <label for="Surname">Ваше прізвище:</label><br>
+                <input type="text" id="lname">
+            </div>
+            <div style="padding: 10px;">
+                <label for="number">Ваш номер:</label><br>
+                <input type="tel" id="number">
+            </div>
+            <div style="padding: 10px;">
+                <label for="mail">Ваша пошта:</label><br>
+                <input type="email" id="mail">
+            </div>
+            <div style="padding: 10px;">
+                <label for="city">Місце проживання:</label><br>
+                <input type="text" id="city">
+            </div>
+            <div style="padding: 10px;">
+                <label for="place">Місце навчання:</label><br>
+                <select id="study" name="university">
+                    <option value="KNU">KNU</option>
+                    <option value="KNUBA">KNUBA</option>
+                    <option value="KPI">KPI</option>
+                </select>
+            </div>
+            <div style="padding: 10px;">
+                <label for="profession">Професія:</label><br>
+                <select id="profession" name="profession">
+                    <option value="Prog">Програмування</option>
+                    <option value="teacher">Вчитель математики</option>
+                    <option value="arch">Архітектор</option>
+                </select>
+            </div>
+            <div style="padding: 10px;">
+                <label for="">Про себе:</label><br>
+                <textarea name="aboutme" rows="10" cols="20"></textarea>
+            </div>
+            <div style="padding: 10px;">
+                <label for="">Чи згідні ви на обробку персональної інформації?</label>
+                <input type="checkbox">
+            </div>
+            <button type="button">Відправити</button>
+        </fieldset>
     </form>
     <hr>
 </body>
