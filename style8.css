@@ -1,0 +1,64 @@
+body {
+    background-color: #d4d4d4;
+    font-family: Arial;
+    color: #161616f8;
+}
+
+h1 {
+    color: rgb(124, 0, 21);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.naming, .info {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+.naming {
+    background-color: #f2f2f2;
+}
+
+
+div {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(78, 150, 1);
+    color: black;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.list {
+    color: rgb(6, 107, 65);
+}
+
+#demo {
+    color: blue !important;
+}
+
+
+body p {
+    font-style: initial;
+}
+
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+
+#div1 {
+    width: calc(100% - 100px);
+}
+
+
+#div2 {
+    width: max(50%, 300px);
+    height: min(200px, 50%);
+}
