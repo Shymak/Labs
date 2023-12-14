@@ -1,0 +1,89 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+background-color: antiquewhite;
+font-family: Arial, sans-serif;
+margin: 20px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+
+   
+.head {
+    background-color: #202020;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+#id1{
+color:rgb(124, 0, 21);
+}
+
+.info {
+    width: 48%;
+    margin-top: 20px;
+}
+
+.about-me {
+    margin-top: 10px;
+    font-style: italic;
+    background-color: #f88e8e;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.head, #id1, .about-me{
+    border: 1px solid  rgb(47, 0, 255);
+   }
+
+p b {
+font-family: Tahoma;
+font-size: 20px;
+color: green;
+}
+p > b {
+font-family: Tahoma;
+font-size: 20px;
+color: red;
+}
+   
+
+.studying {
+    background-color: #5a5a5a;
+    padding: 10px;
+    margin-top: 20px;
+    width: 48%;
+}
+
+[type="button"] {
+    background-color: rgb(255, 0, 0);
+    width:100px;
+    }
+    [type="submit"] {
+    background-color: rgb(43, 255, 0);
+   }
+
+.buttons {
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.copyright {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
